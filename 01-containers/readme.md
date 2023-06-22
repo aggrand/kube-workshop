@@ -33,7 +33,12 @@ The `-it` flags ensure we have an interactive TTY and `--entrypoint` overrides t
 
 Look around inside the container with `ls` and `cd`. Notice that you're now in a different filesystem. Use `ps` and `whoami` to observe the fact that you're a different user and have a different process namespace.
 
-You can run the fact that the `cowsay` binary is present:
+Observe that you're now in an Ubuntu system:
+```bash
+lsb_release -a
+```
+
+You can confirm the fact that the `cowsay` binary is present:
 ```bash
 which cowsay
 ```
