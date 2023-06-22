@@ -6,8 +6,6 @@ As this is a completely hands on workshop, you will need several things before y
 - bash or a bash compatible shell (e.g. zsh), please do not attempt to use PowerShell or cmd.
 - A good editor, we will mostly be editing yaml files
   - I've heard good things about [Kubernetes extension](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools) for [VS Code](https://code.visualstudio.com/), but have never used it.
-- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
-- [helm](https://helm.sh/docs/intro/install/)
 
 ## Install dependencies
 
