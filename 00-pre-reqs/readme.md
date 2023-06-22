@@ -6,6 +6,7 @@ As this is a completely hands on workshop, you will need several things before y
 - bash or a bash compatible shell (e.g. zsh), please do not attempt to use PowerShell or cmd.
 - A good editor, we will mostly be editing yaml files
   - I've heard good things about [Kubernetes extension](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools) for [VS Code](https://code.visualstudio.com/), but have never used it.
+- [Optional] [Homebrew](https://brew.sh/) makes the dependency setup easier for MacOS.
 
 ## Install dependencies
 
@@ -23,9 +24,9 @@ Using Homebrew:
 brew install --cask docker
 ```
 
-Without Homebrew, download the dmg [here](https://docs.docker.com/desktop/install/mac-install/).
+If not using Homebrew, download the dmg [here](https://docs.docker.com/desktop/install/mac-install/).
 
-Go ahead and start the Docker app using the app launcher.
+Go ahead and start the Docker app using the app launcher, it can take a while on the first load.
 
 ### 🧊 Install Minikube
 
@@ -34,13 +35,13 @@ Using Homebrew:
 brew install minikube
 ```
 
-Without Homebrew, MacOS x86-64:
+If not using Homebrew, MacOS x86-64:
 ```bash
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64
 sudo install minikube-darwin-amd64 /usr/local/bin/minikube
 ```
 
-Without Homebrew, MacOS ARM64:
+if not using Homebrew, MacOS ARM64:
 ```bash
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-arm64
 sudo install minikube-darwin-arm64 /usr/local/bin/minikube
