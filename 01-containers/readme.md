@@ -48,6 +48,15 @@ When you're ready, just exit the shell:
 exit
 ```
 
+## 🤓 Extras
+- The `docker/whalesay` image we used is stored [here](https://hub.docker.com/r/docker/whalesay/). You can see the `Dockerfile` used to build it at the bottom. It specifies `ubuntu:14.04` as the base image, and adds more files (like the `cowsay` binary) in higher layers.
+  - You can build an image with the [docker build](https://docs.docker.com/engine/reference/commandline/build/) command.
+  - The Dockerfile reference is [here](https://docs.docker.com/engine/reference/builder/). I think of it as a build system like CMake or `go build`.
+- The containers we ran in these exercises terminated. Containers used for apps might not terminate.
+  - You can see running containers with `docker container ls`
+  - You can run a new command inside an existing container with [docker exec](https://docs.docker.com/engine/reference/commandline/exec/).
+  - You can remove a container with [docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
+
 ## Navigation
 
 [Return to Main Index 🏠](../readme.md) ‖
