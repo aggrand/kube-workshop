@@ -64,7 +64,7 @@ kubectl exec --stdin --tty echo-server-test -- sh
 
 Clean up by deleting the pod:
 ```bash
-kubectl delete pod whalesay-test
+kubectl delete pod echo-server-test
 ```
 
 ## Navigation
