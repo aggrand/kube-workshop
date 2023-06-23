@@ -52,7 +52,7 @@ Having one pod is great, but doesn't give us a strong availability guarantee. We
 kubectl edit deployment echo-server
 ```
 
-Navigate to the line that says `replicas: 1` and increase it to `replicas: 5`.
+Navigate to the line that says `replicas: 1` and increase it to `replicas: 3`.
 
 
 ## Navigation

@@ -23,17 +23,7 @@ Sections / modules:
 - [🏃 Getting Up and Running](02-running/readme.md) - Start Minikube and run a simple pod on it.
 - [🚀 Creating a Deployment](03-deployment/readme.md) - Introducing Services to provide network access.
 - [🌐 Basic Networking](04-network-basics/readme.md) - Introducing Services to provide network access.
-- [📦 Container Registry & Images](02-container-registry/readme.md) - Deploying the registry and importing
-  images.
-- [❇️ Overview Of The Application](03-the-application/readme.md) - Details of the application to be
-  deployed.
-- [🚀 Deploying The Backend](04-deployment/readme.md) - Laying down the first two components and
-  introduction to Deployments and Pods.
-- [🌐 Basic Networking](05-network-basics/readme.md) - Introducing Services to provide network access.
-- [💻 Adding The Frontend](06-frontend/readme.md) - Deploying the frontend to the app and wiring it
-  up.
-- [✨ Improving The Deployment](07-improvements/readme.md) - Recommended practices; resource limits,
-  probes and secrets.
+- [✨ Improving The Deployment](05-improvements/readme.md) - Recommended practices; resource limits,
 - [🌎 Helm & Ingress](08-helm-ingress/readme.md) - Finalizing the application architecture using ingress.
 
 ### 🍵 AKS Optional Sections
