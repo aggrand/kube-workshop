@@ -1,4 +1,4 @@
-# 🚀 Creating a Real Deployment
+# 🚀 Creating a Deployment
 To manage groups of pods and their scaling, we need a higher level abstraction: Deployments.
 
 ## 🗃️ Deploying the Server

@@ -21,7 +21,8 @@ Sections / modules:
   needed.
 - [🐋 Containers](01-containers/readme.md) - Run a basic container and explore its internals
 - [🏃 Getting Up and Running](02-running/readme.md) - Start Minikube and run a simple pod on it.
-- [🌐 Basic Networking](03-network-basics/readme.md) - Introducing Services to provide network access.
+- [🚀 Creating a Deployment](03-deployment/readme.md) - Introducing Services to provide network access.
+- [🌐 Basic Networking](04-network-basics/readme.md) - Introducing Services to provide network access.
 - [📦 Container Registry & Images](02-container-registry/readme.md) - Deploying the registry and importing
   images.
 - [❇️ Overview Of The Application](03-the-application/readme.md) - Details of the application to be
