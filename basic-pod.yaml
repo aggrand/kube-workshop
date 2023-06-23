@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: whalesay-test
+spec:
+  containers:
+  - name: cowsay-test
+    image: docker/whalesay
+    command: ['cowsay', 'hello from kube']
+  restartPolicy: Never

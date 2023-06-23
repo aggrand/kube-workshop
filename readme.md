@@ -19,8 +19,8 @@ Sections / modules:
 
 - [⚒️ Workshop Pre Requisites](00-pre-reqs/readme.md) - Covering the pre set up and tools that will be
   needed.
-- [🚦 Deploying Kubernetes](01-cluster/readme.md) - Deploying AKS, setting up kubectl and accessing
-  the cluster.
+- [🐋 Containers](01-containers/readme.md) - Run a basic container and explore inside it
+- [🏃 Getting Up and Running](01-running/readme.md) - Start Minikube and run a simple pod on it.
 - [📦 Container Registry & Images](02-container-registry/readme.md) - Deploying the registry and importing
   images.
 - [❇️ Overview Of The Application](03-the-application/readme.md) - Details of the application to be
