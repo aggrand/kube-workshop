@@ -16,20 +16,18 @@ minikube status -p "kube-workshop"
 
 ## 🐋 Run a Basic Container
 
-We will create a basic pod and run it to completion. This pod will contain the `whalesay` container we explored in a previous exercise.
+We will create a basic pod and run it to completion. This pod will contain the echo server we explored in a previous exercise.
 First, create the kube manifest file:
 ```bash
 cat > basic-pod.yaml <<EOF
 apiVersion: v1
 kind: Pod
 metadata:
-  name: whalesay-test
+  name: echo-server-test
 spec:
   containers:
-  - name: cowsay-test
-    image: docker/whalesay
-    command: ['cowsay', 'hello from kube']
-  restartPolicy: Never
+  - name: echo-server-test
+    image: ealen/echo-server
 EOF
 ```
 
@@ -46,17 +44,22 @@ kubectl get pods
 
 This pod is in the completed state, since it just printed the logs then exited. We can view the logs:
 ```bash
-kubectl logs whalesay-test
+kubectl logs echo-server-test
 ```
 
 Get more info about the pod:
 ```bash
-kubectl describe pod whalesay-test
+kubectl describe pod echo-server-test
 ```
 
 Get the full manifest for the pod:
 ```bash
-kubectl get pod -o yaml whalesay-test
+kubectl get pod -o yaml echo-server-test
+```
+
+Get a shell inside a pod:
+```bash
+kubectl exec --stdin --tty echo-server-test -- sh
 ```
 
 Clean up by deleting the pod:
