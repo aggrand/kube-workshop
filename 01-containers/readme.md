@@ -39,24 +39,26 @@ View the container logs:
 docker logs echo-server-test
 ```
 
-Clean up by stopping and removing the container:
-```bash
-docker stop echo-server-test
-docker rm echo-server-test
-```
-
 ## 🐚 Enter a Container
-We're going to spawn a container and open a shell into it:
+We're going to open a shell into the container:
 ```bash
-docker run -it --entrypoint sh ealen/echo-server
+docker exec -it echo-server-test sh
 ```
-The `-it` flags ensure we have an interactive TTY and `--entrypoint` overrides the default entrypoint. We have told the container to run the `sh` shell instead of the server.
 
-Look around inside the container with `ls` and `cd`. Notice that you're now in a different filesystem. Use `ps` and `whoami` to observe the fact that you're a different user and have a different process namespace.
+This command told docker to run the `sh` command inside the `echo-server-test` container, with interactive mode specified by `-it`.
+
+Look around inside the container with `ls` and `cd`. Notice that you're now in a different filesystem. Use `ps` and `whoami` to observe the fact that you're a different user and have a different process namespace. You can see the running node process with `ps`.
 
 When you're ready, just exit the shell:
 ```bash
 exit
+```
+
+## 🧹Cleanup
+Clean up by stopping and removing the container:
+```bash
+docker stop echo-server-test
+docker rm echo-server-test
 ```
 
 ## Navigation
