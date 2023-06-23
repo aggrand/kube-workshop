@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: echo-server-test
-spec:
-  containers:
-  - name: echo-server-test
-    image: ealen/echo-server
