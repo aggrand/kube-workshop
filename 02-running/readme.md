@@ -62,9 +62,25 @@ Get a shell inside a pod:
 kubectl exec --stdin --tty echo-server-test -- sh
 ```
 
-Clean up by deleting the pod:
+Expose the pod with a port-forward in the background of the shell:
 ```bash
+kubectl port-forward echo-server-test 3000:80 &
+```
+
+Make a request to the pod:
+```bash
+curl "localhost:3000/param?query=kubernetes-test-query"
+```
+
+Clean up by ending the port forward and deleting the pod:
+```bash
+kill $! # Kill the most recent backgrounded job in this shell.
 kubectl delete pod echo-server-test
+```
+
+The request fails now:
+```bash
+curl "localhost:3000/param?query=kubernetes-test-query"
 ```
 
 ## Navigation
