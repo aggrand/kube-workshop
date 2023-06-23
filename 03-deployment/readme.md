@@ -8,7 +8,7 @@ cat > real-deployment.yaml <<EOF
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: echo-server-test
+  name: echo-server
   labels:
     app: echo-server
 spec:
@@ -22,8 +22,10 @@ spec:
         app: echo-server
     spec:
       containers:
-      - name: echo-server-test
+      - name: echo-server
         image: ealen/echo-server
+        ports:
+        - containerPort: 80
 EOF
 ```
 
@@ -47,7 +49,7 @@ kubectl get pods
 
 Having one pod is great, but doesn't give us a strong availability guarantee. We can improve this by adding more replicas. Access the manifest in edit mode:
 ```bash
-kubectl edit deployment echo-server-test
+kubectl edit deployment echo-server
 ```
 
 Navigate to the line that says `replicas: 1` and increase it to `replicas: 5`.
