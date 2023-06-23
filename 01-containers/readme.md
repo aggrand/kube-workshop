@@ -14,7 +14,7 @@ docker pull docker/whalesay
 
 User `docker run` to spawn a container and execute a command inside it:
 ```bash
-$ docker run docker/whalesay cowsay "hello kube workshop"
+docker run docker/whalesay cowsay "hello kube workshop"
 ```
 
 In this example, `docker/whalesay` is the image tag, and `cowsay "hello kube workshop"` is the command run inside the container.
