@@ -114,4 +114,4 @@ Now that there is a nonzero initial delay, you may be able to notice the rolling
 ## Navigation
 
 [Return to Main Index 🏠](../readme.md) ‖
-[Previous Section ⏪](../06-frontend/readme.md) ‖ [Next Section ⏩](../08-helm-ingress/readme.md)
+[Previous Section ⏪](../04-network-basics/readme.md) ‖ [Next Section ⏩](../06-autoscaler/readme.md)

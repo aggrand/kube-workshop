@@ -110,4 +110,4 @@ kubectl get pods
 ## Navigation
 
 [Return to Main Index 🏠](../readme.md) ‖
-[Previous Section ⏪](../05-improvements/readme.md) ‖ [Next Section ⏩](../07-extra-advanced/readme.md)
+[Previous Section ⏪](../05-improvements/readme.md) ‖ [Next Section ⏩](../07-cleanup/readme.md)

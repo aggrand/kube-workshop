@@ -68,7 +68,7 @@ We will use the [hey](https://github.com/rakyll/hey) load generator when we expe
 
 Using Homebrew:
 ```bash
-brew install minikube
+brew install hey
 ```
 
 If not using Homebrew, MacOS x86-64:

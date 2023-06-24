@@ -4,19 +4,26 @@ Deploying Kubernetes can be extremely complex, with many networking, compute and
 However for the purposes of this workshop, we will use Minikube to easily set up a local environment.
 
 ## 🚀 Deploy a Minikube Cluster
-Enable the Minikube metrics server. This will come in handy for the autoscaler later:
-```bash
-minikube addons enable -p kube-workshop metrics-server
-```
-
 Start a Minikube cluster:
 ```bash
 minikube start -p "kube-workshop"
 ```
 
+Enable the Minikube metrics server and restart. This will come in handy for the autoscaler later:
+```bash
+minikube addons enable -p kube-workshop metrics-server
+minikube stop
+minikube start
+```
+
 Ensure that the cluster is up:
 ```bash
 minikube status -p "kube-workshop"
+```
+
+Set the default profile:
+```bash
+minikube profile kube-workshop
 ```
 
 ## 🐋 Run a Basic Container
@@ -47,7 +54,7 @@ List pods:
 kubectl get pods
 ```
 
-This pod is in the completed state, since it just printed the logs then exited. We can view the logs:
+This pod should be in the ready state. We can view the logs:
 ```bash
 kubectl logs echo-server-test
 ```
