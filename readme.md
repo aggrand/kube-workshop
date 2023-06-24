@@ -20,6 +20,7 @@ Sections / modules:
 - [🌐 Basic Networking](04-network-basics/readme.md) - Introducing Services to provide network access
 - [✨ Improving The Deployment](05-improvements/readme.md) - Configure resource requests, limits, and probes
 - [⚖️ Horizontal Pod Autoscaler (HPA)](06-autoscaler/readme.md) - Set up an autoscaler to handle load
+- [🧹️ Cleanup](07-cleanup/readme.md) - Tear down Kube.
 
 ### 📖 Extra Reading & Teach Yourself Exercises
 

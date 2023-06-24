@@ -2,13 +2,13 @@ kind: Service
 apiVersion: v1
 
 metadata:
-  name: frontend
+  name: data-api
 
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
-    app: frontend
+    app: data-api
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 3000
+      targetPort: 4000
