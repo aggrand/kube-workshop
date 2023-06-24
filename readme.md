@@ -1,15 +1,12 @@
 # Kubernetes Developer Workshop
 
 This is a hands-on, technical workshop intended / hack to get comfortable working with Kubernetes, and
-deploying and configuring applications. It was forked from Ben Coleman's [workshop](https://github.com/benc-uk/kube-primer).
+deploying and configuring applications. It was forked from Ben Coleman's [workshop](https://github.com/benc-uk/kube-primer) and heavily modified.
 
 This workshop is very much designed for software engineers & developers with little or zero Kubernetes
 experience, but wish to get hands on and learn how to deploy and manage applications. It is not
 focused on the administration, network configuration & day-2 operations of Kubernetes itself, so some
 aspects may not be relevant to dedicated platform/infrastructure engineers.
-
-The application used will be one that has already been written and built, so no application code will
-need to be written.
 
 ## The Workshop
 
@@ -20,22 +17,11 @@ Sections / modules:
 - [⚒️ Workshop Pre Requisites](00-pre-reqs/readme.md) - Covering the pre set up and tools that will be
   needed.
 - [🐋 Containers](01-containers/readme.md) - Run a basic container and explore its internals
-- [🏃 Getting Up and Running](02-running/readme.md) - Start Minikube and run a simple pod on it.
-- [🚀 Creating a Deployment](03-deployment/readme.md) - Introducing Services to provide network access.
-- [🌐 Basic Networking](04-network-basics/readme.md) - Introducing Services to provide network access.
-- [✨ Improving The Deployment](05-improvements/readme.md) - Recommended practices; resource limits,
-- [🌎 Helm & Ingress](08-helm-ingress/readme.md) - Finalizing the application architecture using ingress.
-
-### 🍵 AKS Optional Sections
-
-These can be considered bonus sections, and are entirely optional. It is not expected that all these sections would be attempted, and they do not run in order.
-
-- [🤯 Scaling, Stateful Workloads & Helm](09-extra-advanced/readme.md) - Scaling (manual & auto),
-  stateful workloads and persitent volumes, plus more Helm.
-- [🧩 Kustomize & GitOps](10-gitops-flux/readme.md) - Introduction to Kustomize and deploying apps
-  through GitOps with Flux.
-- [👷 CI/CD with Kubernetes](11-cicd-actions/readme.md) - How to manage CI/CD pipelines using Github
-  Actions.
+- [🏃 Getting Up and Running](02-running/readme.md) - Start Minikube and run a simple pod on it
+- [🚀 Creating a Deployment](03-deployment/readme.md) - Introducing Services to provide network access
+- [🌐 Basic Networking](04-network-basics/readme.md) - Introducing Services to provide network access
+- [✨ Improving The Deployment](05-improvements/readme.md) - Configure resource requests, limits, and probes
+- [⚖️ Horizontal Pod Autoscaler (HPA)](06-autoscaler/readme.md) - Set up an autoscaler to handle load
 
 ### 📖 Extra Reading & Teach Yourself Exercises
 

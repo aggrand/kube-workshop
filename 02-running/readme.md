@@ -4,6 +4,11 @@ Deploying Kubernetes can be extremely complex, with many networking, compute and
 However for the purposes of this workshop, we will use Minikube to easily set up a local environment.
 
 ## 🚀 Deploy a Minikube Cluster
+Enable the Minikube metrics server. This will come in handy for the autoscaler later:
+```bash
+minikube addons enable -p kube-workshop metrics-server
+```
+
 Start a Minikube cluster:
 ```bash
 minikube start -p "kube-workshop"
