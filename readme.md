@@ -1,7 +1,7 @@
 # Kubernetes Developer Workshop
 
 This is a hands-on, technical workshop intended / hack to get comfortable working with Kubernetes, and
-deploying and configuring applications. It was forked from Ben Coleman's [workshop](https://github.com/benc-uk/kube-primer) and heavily modified.
+deploying and configuring applications. It was forked from this [workshop](https://github.com/benc-uk/kube-primer) and heavily modified.
 
 This workshop is very much designed for software engineers & developers with little or zero Kubernetes
 experience, but wish to get hands on and learn how to deploy and manage applications.
@@ -24,7 +24,7 @@ Sections / modules:
 
 ### 📖 Extra Reading & Teach Yourself Exercises
 
-A very brief list of potential topics and Kubernetes features you may want to look at after finishing:
+The entire corpus of Kubernetes [documentation](https://kubernetes.io/docs/home/) is great, but here are some specific goodies:
 
 ### Kubernetes Features
 
@@ -37,6 +37,8 @@ A very brief list of potential topics and Kubernetes features you may want to lo
 
 ### Other Projects
 
+- The [original workshop](https://github.com/benc-uk/kube-primer) this was forked from
+- Set up a real cluster from scratch with [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - Enable the [Kubernetes dashboard](https://github.com/kubernetes/dashboard)
 - Enabling TLS with certificates from Let's Encrypt using [Cert Manager](https://cert-manager.io/docs/)
 - Observability
