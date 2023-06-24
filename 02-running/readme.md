@@ -91,4 +91,4 @@ curl "localhost:3000/param?query=kubernetes-test-query"
 ## Navigation
 
 [Return to Main Index 🏠](../readme.md) ‖
-[Previous Section ⏪](../00-pre-reqs/readme.md) ‖ [Next Section ⏩](../02-container-registry/readme.md)
+[Previous Section ⏪](../01-containers/readme.md) ‖ [Next Section ⏩](../03-deployment/readme.md)

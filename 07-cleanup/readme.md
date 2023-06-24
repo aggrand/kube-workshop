@@ -21,4 +21,4 @@ minikube delete -p kube-workshop
 ## Navigation
 
 [Return to Main Index 🏠](../readme.md) ‖
-[Previous Section ⏪](../07-improvements/readme.md) ‖ [Next Section ⏩](../09-extra-advanced/readme.md)
+[Previous Section ⏪](../06-autoscaler/readme.md)

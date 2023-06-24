@@ -76,4 +76,4 @@ If you didn't use Homebrew, you may need to override the MacOS security settings
 
 ## Navigation
 
-[Return to Main Index 🏠](../readme.md) ‖ [Next Section ⏩](../01-cluster/readme.md)
+[Return to Main Index 🏠](../readme.md) ‖ [Next Section ⏩](../01-containers/readme.md)

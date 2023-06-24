@@ -64,4 +64,4 @@ docker rm echo-server-test
 ## Navigation
 
 [Return to Main Index 🏠](../readme.md) ‖
-[Previous Section ⏪](../00-pre-reqs/readme.md) ‖ [Next Section ⏩](../02-container-registry/readme.md)
+[Previous Section ⏪](../00-pre-reqs/readme.md) ‖ [Next Section ⏩](../02-running/readme.md)

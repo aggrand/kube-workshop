@@ -46,4 +46,4 @@ curl "http://127.0.0.1:<YOUR_PORT>/param?query=kubernetes-test-query"
 ## Navigation
 
 [Return to Main Index 🏠](../readme.md) ‖
-[Previous Section ⏪](../04-deployment/readme.md) ‖ [Next Section ⏩](../06-frontend/readme.md)
+[Previous Section ⏪](../03-deployment/readme.md) ‖ [Next Section ⏩](../05-improvements/readme.md)
