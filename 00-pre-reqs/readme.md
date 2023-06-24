@@ -58,6 +58,22 @@ Ensure that it works:
 kubectl version --client
 ```
 
+### Install Hey
+We will use the [hey](https://github.com/rakyll/hey) load generator when we experiment with autoscaling.
+
+Using Homebrew:
+```bash
+brew install minikube
+```
+
+If not using Homebrew, MacOS x86-64:
+```bash
+curl -LO https://hey-release.s3.us-east-2.amazonaws.com/hey_darwin_amd64
+mv hey_darwin_amd64 /usr/local/bin/hey
+```
+
+If you didn't use Homebrew, you may need to override the MacOS security settings to allow `hey` to run, since Apple considers it an "unidentified developer".
+
 ## Navigation
 
 [Return to Main Index 🏠](../readme.md) ‖ [Next Section ⏩](../01-cluster/readme.md)

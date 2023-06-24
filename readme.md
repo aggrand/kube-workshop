@@ -4,9 +4,7 @@ This is a hands-on, technical workshop intended / hack to get comfortable workin
 deploying and configuring applications. It was forked from Ben Coleman's [workshop](https://github.com/benc-uk/kube-primer) and heavily modified.
 
 This workshop is very much designed for software engineers & developers with little or zero Kubernetes
-experience, but wish to get hands on and learn how to deploy and manage applications. It is not
-focused on the administration, network configuration & day-2 operations of Kubernetes itself, so some
-aspects may not be relevant to dedicated platform/infrastructure engineers.
+experience, but wish to get hands on and learn how to deploy and manage applications.
 
 ## The Workshop
 
