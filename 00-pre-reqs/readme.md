@@ -4,11 +4,16 @@ As this is a completely hands on workshop, you will need several things before y
 
 - A Linux or up-to-date MacOS machine
 - bash or a bash compatible shell (e.g. zsh), please do not attempt to use PowerShell or cmd.
-- A good editor, we will mostly be editing yaml files
-  - I've heard good things about [Kubernetes extension](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools) for [VS Code](https://code.visualstudio.com/), but have never used it.
 - [Optional] [Homebrew](https://brew.sh/) makes the dependency setup easier for MacOS.
 
-## Install dependencies
+## 🗄️ Workshop Directory
+You should probably create a directory to run all the project commands in, since we'll create a lot of yaml files:
+```bash
+mkdir ~/kube-workshop
+pushd ~/kube-workshop
+```
+
+## 📦 Install dependencies
 
 Instructions are for MacOS. I assume that Linux users are free spirits who can adapt this for their distro.
 

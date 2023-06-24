@@ -18,6 +18,14 @@ Terminate the Minikube cluster:
 minikube delete -p kube-workshop
 ```
 
+## 🗄️ Remove the Workshop Directory
+```bash
+popd
+rm ~/kube-workshop/*.yaml
+rmdir ~/kube-workshop
+```
+
+
 ## Navigation
 
 [Return to Main Index 🏠](../readme.md) ‖
