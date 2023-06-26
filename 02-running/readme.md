@@ -26,7 +26,7 @@ Set the default profile:
 minikube profile kube-workshop
 ```
 
-## 🐋 Run a Basic Container
+## 🐋 Run a Basic Pod
 
 We will create a basic pod and run it to completion. This pod will contain the echo server we explored in a previous exercise.
 First, create the kube manifest file:

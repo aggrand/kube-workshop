@@ -16,6 +16,7 @@ kill %<YOUR-JOB-NUMBER>
 Terminate the Minikube cluster:
 ```bash
 minikube delete -p kube-workshop
+minikube profile minikube # Set the default profile back to the original default.
 ```
 
 ## 🗄️ Remove the Workshop Directory
